@@ -18,7 +18,7 @@
         android:layout_height="40dp"
         android:hint="username"/>
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
@@ -28,13 +28,15 @@
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:hint="password"/>
+
         <ImageView
             android:id="@+id/eye"
-            android:layout_marginTop="10dp"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/eye_close"/>
-    </LinearLayout>
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="320dp"
+            android:src="@drawable/eye_close" />
+    </FrameLayout>
 
     <CheckBox
         android:id="@+id/check_box"
